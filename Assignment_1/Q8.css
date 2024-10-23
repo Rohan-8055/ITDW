@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   
+    background-color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+h1{
+    color:white;
+}
+table{
+    background-color: rgb(39, 39, 39);
+}
+tr:nth-child(2n){
+    background-color: rgb(73, 73, 73);
+}
+tr:nth-child(2){
+    background-color: rgb(39,39,39);
+}
+th{
+    text-align: center;
+    color: white;
+    text-justify: auto;
+    font-size: medium;
+}
+td{
+    text-align: center;
+    font-size: medium;
+    color: white;
+    text-justify: auto;
+    padding: 5px;
+}
